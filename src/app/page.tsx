@@ -23,6 +23,7 @@ export default function Home() {
              type="text" placeholder="Email address or phone number" />
             <input className="my-2 border border-1  border-gray-300 p-3 rounded-md focus: outline-1 outline-blue-600  " 
             type="password" placeholder="password" />
+            {/* first button */}
             <Button className="bg-blue-600 my-2 hover:bg-blue-700">Login</Button>
             <p className="text-blue-500 my-2 text-center hover:underline cursor-pointer">forgotten password?</p>
             <span className="my-2">
