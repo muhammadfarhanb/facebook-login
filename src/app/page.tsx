@@ -2,10 +2,10 @@ import { Button } from "../../components/ui/button"
 import Image from "next/image"
 export default function Home() {
   return (
-    <div className="bg-gray-100 h-screen flex items-center justify-center text-center sm:text-left"  >
+    <div className="bg-gray-100 h-screen flex items-center justify-center md:max-sm::flex"  >
         
         {/* left side div */}
-        <div className="text-3xl px-10 w-1/2">
+        <div className="text-3xl px-10 w-1/2 md:max-sm::flex">
             <Image 
               src={"/image/facebook.svg"}
               width={300} height={100} 
@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         
         {/* right side div */}
-        <div className="bg-white flex flex-col p-5 rounded-xl shadow w-1/3 ">
+        <div className="bg-white flex flex-col p-5 rounded-xl shadow w-1/3 md:max-sm::flex">
             <input className="my-2 border border-1  border-gray-300 p-3 rounded-md focus: outline-1 outline-blue-600   "
              type="text" placeholder="Email address or phone number" />
             <input className="my-2 border border-1  border-gray-300 p-3 rounded-md focus: outline-1 outline-blue-600  " 
