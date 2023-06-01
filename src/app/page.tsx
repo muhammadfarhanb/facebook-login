@@ -3,10 +3,10 @@ import Image from "next/image"
 export default function Home() {
   return (
     
-  <div className="md:max-sm:flex-auto min-[320px]:text-center max-[600px]:bg-sky-300">
+  <div className=" max-[600px]:bg-sky-300">
     <div className="bg-gray-100 h-screen flex items-center justify-center "  >
       {/* left side div */}
-        <div className="text-3xl px-10 w-1/2">
+        <div className="text-3xl px-10 ">
           <Image 
             src={"/image/facebook.svg"}
             width={300} height={100} 
